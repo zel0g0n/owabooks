@@ -4,21 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <title>OWA Books</title>
 </head>
 
 <body>
   <div class="wrapper">
     <header>
-      <img src="" alt="" class="logo">
+      <img src="./assets/images/Group (2).png" alt="logo" class="logo">
       <div class="header__item">
         <div class="theme__btns">
-          <button class="theme__btns-btn light"></button>
-          <button class="theme__btns-btn dark"></button>
-          <div class="modal">
-            <button class="modal-btn"></button>
-          </div>
+          <button class="theme__btns-btn active-btn light">
+            <i class="fa-regular fa-sun"></i>
+          </button>
+          <button class="theme__btns-btn dark">
+            <i class="fa-regular fa-moon"></i>
+          </button>
+
         </div>
+        <button class="modal-btn">Log out</button>
       </div>
     </header>
   </div>

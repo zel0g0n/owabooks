@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  height: 100px;
+  background-color: rgba(43, 56, 68, 1);
+  margin: 0 auto;
+  .header__item {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    .theme__btns {
+      .theme__btns-btn {
+        display: none;
+        border: 0;
+        background-color: transparent;
+        i {
+          color: rgba(242, 120, 81, 1);
+          font-size: 30px;
+          cursor: pointer;
+        }
+      }
+      .active-btn {
+        display: block;
+      }
+    }
+    .modal-btn  {
+      width: 140px;
+      height: 40px;
+      border-radius: 6px;
+      background-color: rgba(242, 120, 81, 1);
+      border: none;
+      font-weight: 600;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,3 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  height: 100px;
+  background-color: rgb(43, 56, 68);
+  margin: 0 auto;
+}
+header .header__item {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+header .header__item .theme__btns .theme__btns-btn {
+  display: none;
+  border: 0;
+  background-color: transparent;
+}
+header .header__item .theme__btns .theme__btns-btn i {
+  color: rgb(242, 120, 81);
+  font-size: 30px;
+  cursor: pointer;
+}
+header .header__item .theme__btns .active-btn {
+  display: block;
+}
+header .header__item .modal-btn {
+  width: 140px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: rgb(242, 120, 81);
+  border: none;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+body .wrapper {
+  width: 100%;
+  height: 1000px;
+  background-color: rgb(43, 56, 68);
+}
 
 /*# sourceMappingURL=style.css.map */

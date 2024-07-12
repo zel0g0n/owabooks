@@ -1,0 +1,10 @@
+@import 'common';
+@import './section/header';
+
+body {
+  .wrapper {
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(43, 56, 68, 1);
+  }
+}
