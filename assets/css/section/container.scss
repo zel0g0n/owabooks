@@ -1,0 +1,121 @@
+.container {
+  width: 1040px;
+  height: 100%;
+  background-color: rgba(33, 46, 58, 1);
+  padding: 25px;
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    width: 890px;
+    height: 58px;
+    border-radius: 40px;
+    background-color: rgba(43, 56, 68, 1);
+    margin: 0 auto;
+    margin-bottom: 30px;
+    .search__inp {
+      width: 80%;
+      background-color: inherit;
+      height: 100%;
+      border: none;
+      outline: none;
+      font-weight: 400;
+      font-size: 20px;
+      &::placeholder {
+        color: rgba(242, 120, 81, 1);
+      }
+    }
+    .search__btn {
+      width: 25px;
+      height: 25px;
+      border: 0;
+      background-color: inherit;
+      cursor: pointer;
+      i {
+        color: rgba(242, 120, 81, 1);
+        font-size: 25px;
+      }
+    }
+  }
+  .books {
+    width: 98%;
+    height: max-content;
+    .books__list {
+      display: grid;
+      grid-template-columns: repeat(4 , 230px);
+      grid-template-rows: repeat(auto , 460px);
+      gap: 15px;
+      justify-content: space-between;
+      width: 100%;
+      min-height: 460px;
+      .books__list-item {
+        width: 230px;
+        height: 460px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        background-color: rgba(43, 56, 68, 1);
+        border-radius: 10px;
+        .item-img {
+          width: 190px;
+          height: 260px;
+          border-radius: 10px;
+        }
+        p {
+          width: 190px;
+          font-weight: 400;
+        }
+        .item-name {
+          font-size: 20px;
+        }
+        .item-author {
+          font-size: 16px;
+          color: rgba(242, 120, 81, 1);
+        }
+        .item-rank {
+          font-size: 14px;
+          margin-bottom: 10px;
+        }
+        .item__button-group {
+          display: flex;
+          justify-content: space-between;
+          width: 190px;
+          .like {
+            position: absolute;
+            right: 30px;
+            bottom: 65px;
+            width: 16px;
+            height: 16px;
+            border: none;
+            cursor: pointer;
+            background-color: inherit;
+            i {
+              color: #fff;
+              font-size: 16px;
+            }
+          }
+          .info , .download {
+            width: 86px;
+            height: 25px;
+            border-radius: 5px;
+            border: none;
+            font-weight: 500;
+            cursor: pointer;
+          }
+          .info {
+            background-color: #fff;
+            color: rgba(242, 120, 81, 1);
+          }
+          .download {
+            background-color: rgba(242, 120, 81, 1);
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

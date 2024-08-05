@@ -2,14 +2,15 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1300px;
+  max-width: 1360px;
   height: 100px;
   background-color: rgba(43, 56, 68, 1);
   margin: 0 auto;
+  padding: 0 1%;
   .header__item {
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 3rem;
     .theme__btns {
       .theme__btns-btn {
         display: none;
