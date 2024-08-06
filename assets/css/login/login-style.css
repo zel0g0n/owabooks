@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  color: rgba(233, 237, 244, 1);
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(43, 56, 68, 1);
+}
+
+.wrapper__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 590px;
+  height: 550px;
+  background-color: rgba(33, 46, 58, 1);
+  padding: 40px;
+}
+
+.wrapper__item h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 36px;
+}
+
+.wrapper__item form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 400px;
+  height: 360px;
+  background-color: inherit;
+  margin-bottom: 20px;
+}
+
+.wrapper__item form label {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.wrapper__item form input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(233, 237, 244, 1);
+  border-radius: 5px;
+  outline: none;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  background-color: inherit;
+}
+
+.wrapper__item form button {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(242, 120, 81, 1);
+  border: none;
+  border-radius: 5px;
+}
+
+.wrapper__item .faq {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper__item .faq .forgot,
+.wrapper__item .faq .dacc .sup {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(172, 182, 190, 1);
+  text-decoration: none;
+}
+
+.wrapper__item .faq .dacc {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(172, 182, 190, 1);
+}
+
+.wrapper__item .faq .dacc .sup {
+  color: rgba(242, 120, 81, 1);
+}
